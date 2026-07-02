@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/supabaseClient.ts","./src/vite-env.d.ts","./src/components/Auth.tsx","./src/components/Header.tsx","./src/components/TodoForm.tsx","./src/components/TodoItem.tsx","./src/components/TodoList.tsx","./src/hooks/useAuth.ts","./src/hooks/useTodos.ts","./src/types/todo.ts"],"version":"5.9.3"}
