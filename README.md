@@ -1,6 +1,11 @@
-# Mission 09 — Todo App with Supabase
+# Mission 10 — Todo App with Supabase (최종 배포)
 
 작성자: 성하린
+
+## 배포 정보
+
+- 배포 URL: (Vercel 배포 후 여기에 채워주세요, 예: https://mission10-todo-supabase.vercel.app)
+- GitHub URL: https://github.com/sungharin/mission09-todo-supabase
 
 React + TypeScript + Supabase로 만든 Todo 앱입니다. 회원가입/로그인, Todo CRUD가 모두 Supabase DB와 연동되어 있고, Row Level Security(RLS)로 사용자별 데이터를 보호합니다.
 
@@ -69,7 +74,7 @@ supabase/
   schema.sql      # 테이블 생성 + RLS 정책 SQL
 ```
 
-## 5. 체크리스트 대응 현황
+## 5. 체크리스트 대응 현황 (Mission 09)
 
 - [x] Supabase 테이블 생성 및 CRUD DB 연동 (`useTodos.ts`)
 - [x] 회원가입/로그인 페이지 구현 (`Auth.tsx`)
@@ -78,3 +83,14 @@ supabase/
 - [x] 환경변수(.env)로 API 키 관리 (`supabaseClient.ts`, `.env.example`)
 - [x] 새로고침/다른 기기에서도 동일 데이터 유지 (Supabase DB 기반이므로 자동 보장)
 - [x] README.md에 작성자 이름 포함
+
+## 6. 체크리스트 대응 현황 (Mission 10)
+
+- [x] 빌드(`npm run build`) 에러 없이 통과
+- [x] 불필요한 console.log 제거 (에러 가드용 console.error 1건은 의도된 코드로 유지)
+- [x] 미사용 import/변수 제거 (ESLint 검사 통과)
+- [x] 모바일/태블릿 반응형 대응 (`index.css` 미디어쿼리 추가)
+- [ ] Vercel 배포 및 URL 접근 확인
+- [ ] GitHub 연결 자동 배포(CD) 구성 확인
+- [ ] Vercel 환경변수 설정 확인
+- [ ] 동료 2명 이상 피드백 반영 (반영 내용: )
