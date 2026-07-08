@@ -4,7 +4,7 @@
 
 ## 배포 정보
 
-- 배포 URL: (Vercel 배포 후 여기에 채워주세요, 예: https://mission10-todo-supabase.vercel.app)
+- 배포 URL: https://mission09-todo-supabase.vercel.app
 - GitHub URL: https://github.com/sungharin/mission09-todo-supabase
 
 React + TypeScript + Supabase로 만든 Todo 앱입니다. 회원가입/로그인, Todo CRUD가 모두 Supabase DB와 연동되어 있고, Row Level Security(RLS)로 사용자별 데이터를 보호합니다.
