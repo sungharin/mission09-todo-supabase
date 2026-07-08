@@ -176,3 +176,45 @@ h1 {
   color: #d14343;
   margin-bottom: 12px;
 }
+
+/* 태블릿 이하 */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 24px 16px 60px;
+  }
+}
+
+/* 모바일 (좁은 화면 대응) */
+@media (max-width: 480px) {
+  .app-container {
+    max-width: 100%;
+    padding: 16px 12px 48px;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  .app-header {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 12px 14px;
+  }
+
+  .user-email {
+    word-break: break-all;
+  }
+
+  .todo-item {
+    flex-wrap: wrap;
+  }
+
+  .todo-actions {
+    flex-shrink: 0;
+  }
+
+  .todo-actions button {
+    padding: 6px 8px;
+    font-size: 0.78rem;
+  }
+}
